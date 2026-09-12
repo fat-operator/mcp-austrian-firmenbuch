@@ -1,0 +1,1 @@
+"""Firmenbuch MCP package."""

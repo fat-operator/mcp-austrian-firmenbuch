@@ -1,0 +1,19 @@
+[project]
+name = "mcp-austrian-firmenbuch"
+version = "1.0.0"
+description = "MCP server for the Austrian Firmenbuch (Business Register) FBW-WebServices (HVD) SOAP API"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1,<2",
+]
+authors = [{ name = "Operator" }]
+license = "Apache-2.0"
+copyright = "2026 Operator"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
